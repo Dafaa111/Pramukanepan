@@ -4,13 +4,32 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Radio Pramukanepan</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: #f0f0f0;
+      padding: 50px;
+    }
+    .radio-box {
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    }
+    h1 {
+      color: #2e3a59;
+    }
+  </style>
 </head>
-<body style="font-family: sans-serif; text-align: center; padding: 50px;">
-  <h1>📻 Radio Pramukanepan</h1>
-  <p>Memutar lagu Pramuka: "Api Unggun"</p>
-  <audio controls autoplay>
-    <source src="https://pramukanet.id/wp-content/uploads/2016/06/Api-Unggun.mp3" type="audio">
-    Browser kamu tidak mendukung audio.
-  </audio>
+<body>
+  <div class="radio-box">
+    <h1>📻 Radio Pramukanepan</h1>
+    <p>Putar lagu Pramuka untuk semangat!</p>
+    <audio controls autoplay>
+      <source src="https://pramukanet.id/audio/Setia%20Hingga%20Akhir.mp3" type="audio/mpeg">
+      Browser kamu tidak mendukung pemutar audio.
+    </audio>
+  </div>
 </body>
 </html>
